@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100vh;
+  padding: 20px;
 `;
 
 export const TableWrapper = styled.div`
@@ -15,6 +16,7 @@ export const TableWrapper = styled.div`
   grid-template-columns: auto;
   align-items: center;
   justify-items: center;
+  border: 1px solid red;
 
   @media (min-width: 700px) {
     grid-template-columns: auto auto;

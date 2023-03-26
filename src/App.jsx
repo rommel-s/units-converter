@@ -5,7 +5,14 @@ import { theme } from "./styles/Theme";
 import Home from "./pages/Home";
 
 function App() {
-  return <h1>batata</h1>;
+  return (
+    <>
+      <ThemeProvider theme={theme}>
+        <GlobalStyles />
+        <Home />
+      </ThemeProvider>
+    </>
+  );
 }
 
 export default App;
