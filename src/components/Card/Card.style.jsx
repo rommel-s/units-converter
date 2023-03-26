@@ -9,7 +9,6 @@ export const Card = styled.div`
   flex-direction: column;
   border-radius: 30px;
   margin: 6px 0;
-  border: 1px solid red;
 `;
 
 export const MiddleLine = styled.hr`

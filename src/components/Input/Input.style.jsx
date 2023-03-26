@@ -7,7 +7,6 @@ export const InputContainer = styled.div`
   width: 100%;
   padding: 0 5em;
   margin: 30px;
-  border: 1px solid red;
 `;
 
 export const Container = styled.div`
@@ -15,7 +14,6 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   width: 70vw;
-  border: 1px solid blue;
 `;
 
 export const Label = styled.label`
@@ -29,7 +27,6 @@ export const Label = styled.label`
   pointer-events: none;
   transform-origin: left top;
   transition: 200ms ease all;
-  border: 1px solid #00ff00;
 
   @media (min-width: 700px) {
     left: -9%;

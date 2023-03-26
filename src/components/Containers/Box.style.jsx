@@ -16,7 +16,6 @@ export const TableWrapper = styled.div`
   grid-template-columns: auto;
   align-items: center;
   justify-items: center;
-  border: 1px solid red;
 
   @media (min-width: 700px) {
     grid-template-columns: auto auto;
